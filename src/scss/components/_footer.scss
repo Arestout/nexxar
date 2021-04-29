@@ -1,0 +1,31 @@
+.footer {
+  @include flex;
+
+  padding: 2.5em 3.5em;
+
+  &__logo {
+    display: none;
+
+    @include respond(tablet) {
+      display: block;
+    }
+  }
+
+  &__social-icons a:not(:last-child) {
+    margin-right: 1em;
+  }
+
+  @include respond(tablet) {
+    @include flex(space-between, center);
+
+    padding-right: 5em;
+    padding-left: 5em;
+  }
+
+  @include respond(desktop) {
+    @include flex(space-between, center);
+
+    padding-right: 9em;
+    padding-left: 10em;
+  }
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="436px" height="262px" viewBox="0 0 436 262" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="131" cy="131" r="131"></circle>
+    </defs>
+    <g id="0.0-Startseite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Test-desktop" transform="translate(-237.000000, -560.000000)">
+            <g id="Group-9" transform="translate(205.000000, 478.000000)">
+                <g id="Group-8">
+                    <g id="Group-7" transform="translate(30.000000, 20.000000)">
+                        <g id="Group-6" transform="translate(2.000000, 62.000000)">
+                            <g id="Group-5" transform="translate(296.000000, 75.000000)">
+                                <g id="Group-3">
+                                    <text id="Red-Color" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16.8" font-weight="bold" line-spacing="22.4" fill="#333333">
+                                        <tspan x="39.4" y="16.2">Red Color</tspan>
+                                    </text>
+                                    <text id="1)" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="9.8" font-weight="bold" line-spacing="12.4" fill="#333333">
+                                        <tspan x="121.7" y="11">1)</tspan>
+                                    </text>
+                                    <rect id="Rectangle-Copy" fill="#E24242" x="0.7" y="2.8" width="20" height="20"></rect>
+                                </g>
+                                <g id="Group-4" transform="translate(0.000000, 74.000000)">
+                                    <text id="Purple-Color" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16.8" font-weight="bold" line-spacing="22.4" fill="#333333">
+                                        <tspan x="39.4" y="16.1">Purple Color</tspan>
+                                    </text>
+                                    <rect id="Rectangle-Copy-2" fill="#AE62A7" x="0.7" y="2.7" width="20" height="20"></rect>
+                                </g>
+                                <g id="blue" transform="translate(0.000000, 37.000000)">
+                                    <text id="Blue-Color" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16.8" font-weight="bold" line-spacing="22.4" fill="#333333">
+                                        <tspan x="39.4" y="16.1">Blue Color</tspan>
+                                    </text>
+                                    <rect id="Rectangle" fill="#70C1D4" x="0.7" y="2.7" width="20" height="20"></rect>
+                                </g>
+                            </g>
+                            <g id="pie_graph">
+                                <g id="Rectangle">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#70C1D4" xlink:href="#path-1"></use>
+                                    <polygon fill="#E24242" mask="url(#mask-2)" points="131 -32.2245989 341.860963 -32.2245989 341.860963 254.741752 131 131"></polygon>
+                                    <polygon fill="#AE62A7" mask="url(#mask-2)" points="130 132 287 132 287 307 8 307"></polygon>
+                                </g>
+                                <circle id="Oval" fill="#FFFFFF" cx="130.5" cy="131.5" r="90.5"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

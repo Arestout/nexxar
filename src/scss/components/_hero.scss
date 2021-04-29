@@ -1,0 +1,23 @@
+.hero {
+  margin-bottom: 3rem;
+
+  &__title {
+    margin-bottom: 1rem;
+    line-height: 26px;
+
+    @include respond(tablet) {
+      font-size: 3rem;
+      line-height: 52px;
+    }
+
+    @include respond(desktop) {
+      font-size: 4rem;
+    }
+  }
+
+  &__text {
+    @include respond(desktop) {
+      font-size: 1.3rem;
+    }
+  }
+}

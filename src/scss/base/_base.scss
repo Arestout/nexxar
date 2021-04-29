@@ -1,0 +1,119 @@
+/* =================
+	Sticky footer
+	================= */
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Georgia', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.container {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+/* =================
+	Global
+	================= */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+.visually-hidden {
+  position: absolute;
+  margin: -1px;
+  width: 1px;
+  height: 1px;
+  clip: rect(0 0 0 0);
+}
+
+a {
+  color: inherit;
+}
+
+.main {
+  padding: 1em;
+
+  &__content-wrapper {
+    @include respond(desktop) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  @include respond(tablet) {
+    padding-right: 5em;
+    padding-left: 5em;
+  }
+
+  @include respond(desktop) {
+    padding-right: 12em;
+    padding-left: 12em;
+  }
+}
+
+#background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: rgba(51, 51, 51, 0.9);
+  opacity: 0;
+  transform: translateX(-103%);
+  transition: all 0.3s ease-in-out;
+  will-change: transform, opacity;
+}
+
+#background.active-background,
+#background-nav.active-background,
+#desktopSubmenu.active-background {
+  opacity: 1;
+  transform: none;
+}
+
+#background-nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: #eee;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 0.3s ease-in-out;
+  will-change: transform, opacity;
+}
+
+.active-menu {
+  background-color: #97c227;
+}

@@ -1,0 +1,61 @@
+.user-review {
+  position: relative;
+
+  @include respond(desktop) {
+    width: calc(100% / 2 - 1em);
+  }
+}
+
+.review {
+  margin-bottom: 3.5rem;
+  padding: 1em;
+  padding-top: 4.5em;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.12), 0 0 3px 0 rgba(0, 0, 0, 0.12);
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 1.2rem;
+    top: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    background-image: url(../../img/quotes.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    @include respond(desktop) {
+      left: 1.8rem;
+    }
+  }
+
+  &__text {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 40px;
+    color: #6e6a69;
+
+    @include respond(desktop) {
+      font-size: 2rem;
+    }
+  }
+
+  &__user-name {
+    display: inline-block;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.3em;
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+
+  &__user-position {
+    color: #333;
+  }
+
+  @include respond(desktop) {
+    margin-bottom: 0;
+    padding-right: 2em;
+    padding-left: 2em;
+    height: 100%;
+  }
+}
